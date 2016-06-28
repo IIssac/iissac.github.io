@@ -3335,7 +3335,7 @@ legend+.form-group {
     position: absolute;
     top: 2px;
     left: 0;
-    width: 14px
+    width: 14px;
 }
 
 [class*=radiobtn-circle] {
@@ -3345,7 +3345,7 @@ legend+.form-group {
 .checkbox-circle,.radiobtn-circle {
     border: 2px solid rgba(0,0,0,.54);
     -webkit-transition: border-color .3s cubic-bezier(.4,0,.2,1);
-    transition: border-color .3s cubic-bezier(.4,0,.2,1)
+    transition: border-color .3s cubic-bezier(.4,0,.2,1);
 }
 
 input[type=checkbox]:focus~.checkbox-circle {
@@ -3785,7 +3785,7 @@ input[type=checkbox]:checked+.switch-toggle-red:active:after,input[type=radio]:c
     left: 0;
     z-index: 40;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .modal-backdrop,.picker__holder {
@@ -3852,7 +3852,7 @@ input[type=checkbox]:checked+.switch-toggle-red:active:after,input[type=radio]:c
 }
 
 .modal-dialog {
-    margin: 48px 16px
+    margin: 48px 16px;
 }
 
 .modal-heading,.modal-inner {

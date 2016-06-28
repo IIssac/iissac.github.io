@@ -107,7 +107,7 @@
 												<div class="card-action">
 													<div class="card-action-btn pull-right">
 														<a class="btn btn-flat waves-attach waves-effect" id="dove_snackbar" style="font-family: Microsoft Yahei;"><span class="icon">add_shopping_cart</span>&nbsp;加入购物车</a>
-														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">navigate_next</span>&nbsp;立即购买</a>
+														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#picker_modal" style="font-family: Microsoft Yahei;"><span class="icon">navigate_next</span>&nbsp;立即购买</a></a>
 													</div>
 												</div>
 											</div>
@@ -190,13 +190,63 @@
 					<a class="btn btn-flat" style="font-family: Microsoft Yahei;"> 忻府区 </a>
 				</div>
 				<div class="modal-footer" style="font-family: Microsoft Yahei;">
-					<p class="text-right"><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal"	 type="button">取消</button><button class="btn btn-flat btn-brand waves-attach" data-dismiss=	"modal" type="button">确认</button></p>
+					<p class="text-right"><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal"	 type="button">取消</button><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" type="button">确认</button></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="snackbar" style="font-family: Microsoft Yahei;"></div>
+	<div aria-hidden="true" class="modal fade" style="font-family: Microsoft Yahei;" id="picker_modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-heading">
+					<a class="modal-close" data-dismiss="modal">×</a>
+					<h2 class="modal-title" style="font-family: Microsoft Yahei;">请选择数量</h2>
+				</div>
+				<div class="modal-inner">
+					<div class="form-group">					
+						<div class="radiobtn radiobtn-adv radiobtn-inline">
+							<label for="no_1">
+								<input class="access-hide" checked="" id="no_1" name="no" type="radio">1
+								<span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+							</label>
+						</div>
+						<div class="radiobtn radiobtn-adv radiobtn-inline">
+							<label for="no_2">
+								<input class="access-hide" id="no_2" name="no" type="radio">2
+								<span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+							</label>
+						</div>
+						<div class="radiobtn radiobtn-adv radiobtn-inline">
+							<label for="no_3">
+								<input class="access-hide" id="no_3" name="no" type="radio">3
+								<span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+							</label>
+						</div>
+						<div class="radiobtn radiobtn-adv radiobtn-inline">
+							<label for="no_4">
+								<input class="access-hide" id="no_4" name="no" type="radio">4
+								<span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+							</label>
+						</div>
+						<div class="radiobtn radiobtn-adv radiobtn-inline">
+							<label for="no_5">
+								<input class="access-hide" id="no_5" name="no" type="radio">5
+								<span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+							</label>
+						</div>
+						<div class="form-group-label">
+							<label class="floating-label" for="no_6">自定义</label>
+							<input class="form-control" style="width: 80px;" id="no_text" type="text">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer" style="font-family: Microsoft Yahei;">
+					<p class="text-right"><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal"	 type="button">取消</button><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" type="button">确认</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- 
 	<div aria-hidden="true" class="modal fade" id="dove_modal" role="dialog" tabindex="-1" style="top: 220px;">
 		<div class="modal-dialog">
@@ -255,6 +305,7 @@
 			<a class="fbtn fbtn-lg fbtn-brand-accent waves-attach waves-circle waves-light" ><span class="icon">shopping_cart</span></a>
 		</div>
 	</div>
+	<div class="snackbar" style="font-family: Microsoft Yahei;"></div>
 
 	<!-- js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js">
