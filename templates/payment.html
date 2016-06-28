@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
-	<title>小蚁</title>
+	<title>我的订单</title>
 
 	<!-- css -->
 	<link href="../css/base.min.css" rel="stylesheet">
@@ -74,7 +74,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
-						<h1 class="content-heading" style="font-family: Microsoft Yahei; font-size: 32px"><span class="icon icon-lg">trending_up</span>&nbsp;最新热卖</h1>
+						<h1 class="content-heading" style="font-family: Microsoft Yahei; font-size: 32px"><span class="icon icon-lg">payment</span>&nbsp;我的订单</h1>
 					</div>
 				</div>
 			</div>
@@ -94,17 +94,17 @@
 												</div>
 												<div class="card-header">
 														<div class="card-inner">
-															<span class="card-heading" style="font-family: Microsoft Yahei;">德芙巧克力（盒装）<span class="card-heading pull-right" style="color: #F40">¥ 36.90</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>华美超市<span class="card-heading pull-right" style="font-size: 14px;"></span></div>
+															<span class="card-heading" style="font-family: Microsoft Yahei;">德芙巧克力（盒装）<span class="card-heading pull-right" style="color: #F40">¥ 36.90</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>华美超市<span class="card-heading pull-right" style="font-size: 14px;"></span><div class="pull-right" style="font-size: 14px; font-family: Microsoft Yahei;">数量：1</div></div>
 														</div>
-												</div>
-												<div class="card-inner" style="font-family: Microsoft Yahei;">
-													<p>纵享德芙新丝滑</p>
 												</div>
 
 												<div class="card-action">
+													<div class="card-action-btn pull-left">
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">query_builder</span>&nbsp;运输中</a>
+													</div>
 													<div class="card-action-btn pull-right">
-														<a class="btn btn-flat waves-attach waves-effect" id="dove_snackbar" style="font-family: Microsoft Yahei;"><span class="icon">add_shopping_cart</span>&nbsp;加入购物车</a>
-														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#picker_modal" style="font-family: Microsoft Yahei;"><span class="icon">navigate_next</span>&nbsp;立即购买</a>
+														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#confirm_modal" style="font-family: Microsoft Yahei;"><span class="icon">delete</span>&nbsp;删除订单</a>
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">event</span>&nbsp;查看订单</a>
 													</div>
 												</div>
 											</div>
@@ -122,18 +122,17 @@
 
 												<div class="card-header">
 													<div class="card-inner">
-														<span class="card-heading" style="font-family: Microsoft Yahei;">小板凳<span class="card-heading pull-right" style="color: #F40">¥ 79.00</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>国美电器<span class="card-heading pull-right" style="font-size: 14px;"></span></div>
+														<span class="card-heading" style="font-family: Microsoft Yahei;">小板凳<span class="card-heading pull-right" style="color: #F40">¥ 79.00</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>国美电器<span class="card-heading pull-right" style="font-size: 14px;"></span><div class="pull-right" style="font-size: 14px; font-family: Microsoft Yahei;">数量：2</div></div>
 													</div>
 												</div>
 
-												<div class="card-inner" style="font-family: Microsoft Yahei;">
-													<p>限量版小板凳</p>
-												</div>
-
 												<div class="card-action">
+													<div class="card-action-btn pull-left">
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">highlight_off</span>&nbsp;已关闭</a>
+													</div>
 													<div class="card-action-btn pull-right">
-														<a class="btn btn-flat waves-attach waves-effect" id="chair_snackbar" style="font-family: Microsoft Yahei;"><span class="icon">add_shopping_cart</span>&nbsp;加入购物车</a>
-														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#picker_modal" style="font-family: Microsoft Yahei;"><span class="icon">navigate_next</span>&nbsp;立即购买</a>
+														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#confirm_modal" style="font-family: Microsoft Yahei;"><span class="icon">delete</span>&nbsp;删除订单</a>
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">event</span>&nbsp;查看订单</a>
 													</div>
 												</div>
 											</div>
@@ -151,17 +150,17 @@
 
 												<div class="card-header">
 													<div class="card-inner">
-														<span class="card-heading" style="font-family: Microsoft Yahei;">奶壶壶<span class="card-heading pull-right" style="color: #F40">¥ 89.25</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>鑫鹏日化<span class="card-heading pull-right" style="font-size: 14px;"></span></div>
+														<span class="card-heading" style="font-family: Microsoft Yahei;">奶壶壶<span class="card-heading pull-right" style="color: #F40">¥ 89.25</span></span><br><div style="font-size: 14px; font-family: Microsoft Yahei;"><span class="icon">store</span>鑫鹏日化<span class="card-heading pull-right" style="font-size: 14px;"></span><div class="pull-right" style="font-size: 14px; font-family: Microsoft Yahei;">数量：1</div></div>
 													</div>
 												</div>
-												<div class="card-inner" style="font-family: Microsoft Yahei;">
-													<p>赵怡然的奶壶壶</p>
-												</div>
-
+												
 												<div class="card-action">
+													<div class="card-action-btn pull-left">
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">check_circle</span>&nbsp;已完成</a>
+													</div>
 													<div class="card-action-btn pull-right">
-														<a class="btn btn-flat waves-attach waves-effect" id="bottle_snackbar" style="font-family: Microsoft Yahei;"><span class="icon">add_shopping_cart</span>&nbsp;加入购物车</a>
-														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#picker_modal" style="font-family: Microsoft Yahei;"><span class="icon">navigate_next</span>&nbsp;立即购买</a>
+														<a class="btn btn-flat waves-attach waves-effect" data-toggle="modal" href="#confirm_modal" style="font-family: Microsoft Yahei;"><span class="icon">delete</span>&nbsp;删除订单</a>
+														<a class="btn btn-flat waves-attach waves-effect" style="font-family: Microsoft Yahei;"><span class="icon">event</span>&nbsp;查看订单</a>
 													</div>
 												</div>
 											</div>
@@ -188,6 +187,23 @@
 				</div>
 				<div class="modal-footer" style="font-family: Microsoft Yahei;">
 					<p class="text-right"><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal"	 type="button">取消</button><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" type="button">确认</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div aria-hidden="true" class="modal fade" style="font-family: Microsoft Yahei; top: 160px" id="confirm_modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-heading">
+					<a class="modal-close" data-dismiss="modal">×</a>
+					<h2 class="modal-title" style="font-family: Microsoft Yahei;">提示信息</h2>
+				</div>
+				<div class="modal-inner">
+					<p style="font-family: Microsoft Yahei;">是否真的删除该订单？</p>
+				</div>
+				<div class="modal-footer" style="font-family: Microsoft Yahei;">
+					<p class="text-right"><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal"	 type="button">否</button><button class="btn btn-flat btn-brand waves-attach" data-dismiss="modal" type="button">是</button></p>
 				</div>
 			</div>
 		</div>
